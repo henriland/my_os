@@ -9,7 +9,7 @@
 	BITS 16
 
 	%DEFINE MYOS_VER '1.0.0'	; OS version number
-	%DEFINE MYOS_API_VER 17	; API version for programs to check
+	%DEFINE MYOS_API_VER 1	; API version for programs to check
 
 
 	; This is the location in RAM for kernel disk operations, 24K
