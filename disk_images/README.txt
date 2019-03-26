@@ -1,0 +1,1 @@
+The build-linux.sh script in the root creates myos.iso -file.
