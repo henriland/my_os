@@ -73,7 +73,7 @@ rm -f disk_images/myos.iso
 mkisofs -quiet -V 'MYOS' -input-charset iso8859-1 -o disk_images/myos.iso -b myos.flp disk_images/ || exit
 
 # Let's remove the floppy image in the end
-rm -f disk_images/myos.flp
+#rm -f disk_images/myos.flp
 
 echo '>>> Done!'
 

@@ -281,7 +281,7 @@ os_list_dialog:
 	mov byte [.num_of_entries], cl
 
 
-	mov bl, 01001111b		; White on red
+	mov bl, 10011111b		; White on red
 	mov dl, 20			; Start X position
 	mov dh, 2			; Start Y position
 	mov si, 40			; Width
@@ -755,7 +755,7 @@ os_dialog_box:
 	mov ah, 09h
 	mov bh, 0
 	mov cx, 42
-	mov bl, 01001111b		; White on red
+	mov bl, 10011111b		; White on red
 	mov al, ' '
 	int 10h
 	popa
